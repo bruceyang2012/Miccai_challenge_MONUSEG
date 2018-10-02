@@ -1,7 +1,9 @@
 ## 7th place on Miccai - Multi Organ Nuclei Segementation
-Chanllenge links: https://monuseg.grand-challenge.org/Results/
+Chanllenge results: https://monuseg.grand-challenge.org/Results/
 
 Slides: https://docs.google.com/presentation/d/1jS9YEs_KVBamoYdEZ0oSGUbIBQmr2htOz12dQLdf4Sk/edit?usp=sharing
+
+Manuscript: https://drive.google.com/open?id=1S1apR4SV_aCiFbfLCaAkhh3EpJCfDCDu
 
 please install following package
 ```python
@@ -27,7 +29,7 @@ Now support Path Aggregation Network and used as default. If you want to use ori
 
 
 
-Train the Mask-RCNN by
+Then train the Mask-RCNN by
 ```
 python train.py --weight imagenet --dataset dataset/ --logs logs/ --subset train
 ```
