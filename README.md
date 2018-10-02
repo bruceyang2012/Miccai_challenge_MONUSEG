@@ -12,7 +12,7 @@ Please install package below
 pip install numba numexpr pygsheets oauth2client
 ```
 
-First, setup your model hyper-parameter config in the **monuconfig.py**. We support backone: resnet50/101, densenet121/169 and inception-resnetv2, please specify model in BACKBONE.
+First, setup your model hyper-parameter config in the **monuconfig.py**. We support backone: resnet50/101, densenet121/169 and inception-resnetv2, please set the model in BACKBONE.
 ```python
 class Config(object):
   NAME = "name your model"
