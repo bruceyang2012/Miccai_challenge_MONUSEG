@@ -40,7 +40,7 @@ def extract_bboxes(mask):
     
     # find horizontal high, low indices for mask
     horizon_start = np.argmax(np.any(mask, axis=0), axis=0)
-    horizon_end = mask_shape[0] - np.argmax(np.any(np.flip(mask, axis=1), axis=0), axis=0)
+    horizon_end = mask_shape[1] - np.argmax(np.any(np.flip(mask, axis=1), axis=0), axis=0)
 
     # find vertical high, low indices for mask
     vertical_start = np.argmax(np.any(mask, axis=1), axis=0)
