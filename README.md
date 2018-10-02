@@ -5,7 +5,9 @@ Slides: https://docs.google.com/presentation/d/1jS9YEs_KVBamoYdEZ0oSGUbIBQmr2htO
 
 Manuscript: https://drive.google.com/open?id=1S1apR4SV_aCiFbfLCaAkhh3EpJCfDCDu
 
-please install following package
+---
+
+Please install package below
 ```python
 pip install numba numexpr pygsheets oauth2client
 ```
